@@ -32,12 +32,13 @@ I tasked both models to remember the first token of a long sequence.
 ## 📈 Benchmark Results
 
 ### Experiment 1: Inference Speed (Time vs. Sequence Length)
-![Speed Benchmark](<img width="433" height="355" alt="time" src="https://github.com/user-attachments/assets/8baf01e4-3112-4e27-9e07-3b451f940d0e" />
-)
+<img width="433" height="355" alt="time" src="https://github.com/user-attachments/assets/8baf01e4-3112-4e27-9e07-3b451f940d0e" />
+
 *Observation: The LSTM (Red) maintains a linear time profile, while the Transformer (Blue) sees computational costs explode as sequences lengthen.*
 
 ### Experiment 2: Long-Term Memory (Loss vs. Training Steps)
-![Memory Benchmark](<img width="433" height="357" alt="memory" src="https://github.com/user-attachments/assets/075738ce-28d9-4b39-9862-d8687434e491" />)
+<img width="433" height="357" alt="memory" src="https://github.com/user-attachments/assets/075738ce-28d9-4b39-9862-d8687434e491" />
+
 *Observation: The Transformer's loss drops to zero almost immediately. The LSTM struggles to learn long-range dependencies.*
 
 ---
